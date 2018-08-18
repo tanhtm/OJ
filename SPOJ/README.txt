@@ -1,0 +1,6 @@
+- CANDY - Candy I
+- NSTEPS - Number Steps
+- AE00 - Rectangles
+- TOANDFRO - To and Fro
+- FCTRL - Factorial  Trailing Number of Zeros
+- LASTDIG - The last digit
