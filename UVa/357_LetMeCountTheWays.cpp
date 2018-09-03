@@ -5,6 +5,7 @@ int US[]={0,1,5,10,25,50};
 int n;
 ll F[30005][6];
 int main(){
+	cout<< false + true<<endl;
 	/*freopen("data.txt","r",stdin);
 	freopen("dataOut.txt","w",stdout);*/
 	for(int i=1;i<=30000;i++) F[i][1] = 1;
