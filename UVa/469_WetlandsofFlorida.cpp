@@ -2,11 +2,11 @@
 using namespace std;
 typedef pair < int , int > ii;
 int n,m;
-vector < string > grid;
-vector < ii > cells;
-vector < int > memoR;
+vector < string > grid; // grid[i][j] mo ta du lieu vong dat
+vector < ii > cells; // cells[i] luu toa do cau hoi
+vector < int > memoR; // memoR[i] luu dap an cua cells[i]
 string s;
-int memo [101][101];
+int memo [101][101]; // memo[i][j] = x danh dau 
 int r;
 void dfs (int x, int y, int i){
 	if(x < 0 || x == n || y < 0 || y == m) return;
